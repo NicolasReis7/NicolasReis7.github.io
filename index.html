@@ -1,317 +1,448 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <title>Meu Portfólio</title>
+<title>Meu Portfólio</title>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
 </head>
 
 <body>
 
-    <div id="intro">
+<div id="intro">
 
-        <h1 class="intro-titulo">
-            BEM-VINDO AO MEU PORTFÓLIO
+    <h1 class="intro-titulo">
+        BEM-VINDO AO MEU PORTFÓLIO
+    </h1>
+
+    <svg class="pl" viewBox="0 0 160 160" width="160px" height="160px" xmlns="http://www.w3.org/2000/svg">
+
+        <defs>
+            <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#000"></stop>
+                <stop offset="100%" stop-color="#fff"></stop>
+            </linearGradient>
+
+            <mask id="mask1">
+                <rect x="0" y="0" width="160" height="160" fill="url(#grad)"></rect>
+            </mask>
+
+            <mask id="mask2">
+                <rect x="28" y="28" width="104" height="104" fill="url(#grad)"></rect>
+            </mask>
+        </defs>
+
+        <g>
+            <g class="pl__ring-rotate">
+                <circle class="pl__ring-stroke" cx="80" cy="80" r="72" fill="none"
+                    stroke="hsl(223,90%,55%)" stroke-width="16"
+                    stroke-dasharray="452.39 452.39"
+                    stroke-dashoffset="452"
+                    stroke-linecap="round"
+                    transform="rotate(-45,80,80)">
+                </circle>
+            </g>
+        </g>
+
+        <g mask="url(#mask1)">
+            <g class="pl__ring-rotate">
+                <circle class="pl__ring-stroke" cx="80" cy="80" r="72" fill="none"
+                    stroke="hsl(193,90%,55%)" stroke-width="16"
+                    stroke-dasharray="452.39 452.39"
+                    stroke-dashoffset="452"
+                    stroke-linecap="round"
+                    transform="rotate(-45,80,80)">
+                </circle>
+            </g>
+        </g>
+
+        <g>
+            <g stroke-width="4" stroke-dasharray="12 12" stroke-dashoffset="12"
+                stroke-linecap="round" transform="translate(80,80)">
+
+                <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
+                    points="0,2 0,14" transform="rotate(-135,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
+                    points="0,2 0,14" transform="rotate(-90,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
+                    points="0,2 0,14" transform="rotate(-45,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
+                    points="0,2 0,14" transform="rotate(0,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
+                    points="0,2 0,14" transform="rotate(45,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
+                    points="0,2 0,14" transform="rotate(90,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
+                    points="0,2 0,14" transform="rotate(135,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
+                    points="0,2 0,14" transform="rotate(180,0,0) translate(0,40)">
+                </polyline>
+
+            </g>
+        </g>
+
+        <g mask="url(#mask1)">
+            <g stroke-width="4" stroke-dasharray="12 12" stroke-dashoffset="12"
+                stroke-linecap="round" transform="translate(80,80)">
+
+                <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
+                    points="0,2 0,14" transform="rotate(-135,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
+                    points="0,2 0,14" transform="rotate(-90,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
+                    points="0,2 0,14" transform="rotate(-45,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
+                    points="0,2 0,14" transform="rotate(0,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
+                    points="0,2 0,14" transform="rotate(45,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
+                    points="0,2 0,14" transform="rotate(90,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
+                    points="0,2 0,14" transform="rotate(135,0,0) translate(0,40)">
+                </polyline>
+
+                <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
+                    points="0,2 0,14" transform="rotate(180,0,0) translate(0,40)">
+                </polyline>
+
+            </g>
+        </g>
+
+        <g>
+            <g transform="translate(64,28)">
+                <g class="pl__arrows" transform="rotate(45,16,52)">
+
+                    <path fill="hsl(3,90%,55%)"
+                        d="M17.998,1.506l13.892,43.594c.455,1.426-.56,2.899-1.998,2.899H2.108c-1.437,0-2.452-1.473-1.998-2.899L14.002,1.506c.64-2.008,3.356-2.008,3.996,0Z">
+                    </path>
+
+                    <path fill="hsl(223,10%,90%)"
+                        d="M14.009,102.499L.109,58.889c-.453-1.421,.559-2.889,1.991-2.889H29.899c1.433,0,2.444,1.468,1.991,2.889l-13.899,43.61c-.638,2.001-3.345,2.001-3.983,0Z">
+                    </path>
+
+                </g>
+            </g>
+        </g>
+
+        <g mask="url(#mask2)">
+            <g transform="translate(64,28)">
+                <g class="pl__arrows" transform="rotate(45,16,52)">
+
+                    <path fill="hsl(333,90%,55%)"
+                        d="M17.998,1.506l13.892,43.594c.455,1.426-.56,2.899-1.998,2.899H2.108c-1.437,0-2.452-1.473-1.998-2.899L14.002,1.506c.64-2.008,3.356-2.008,3.996,0Z">
+                    </path>
+
+                    <path fill="hsl(223,90%,80%)"
+                        d="M14.009,102.499L.109,58.889c-.453-1.421,.559-2.889,1.991-2.889H29.899c1.433,0,2.444,1.468,1.991,2.889l-13.899,43.61c-.638,2.001-3.345,2.001-3.983,0Z">
+                    </path>
+
+                </g>
+            </g>
+        </g>
+
+    </svg>
+
+    <p class="carregando">
+        Carregando...
+    </p>
+
+</div>
+
+<div id="portfolio">
+
+    <header>
+
+        <h1 class="titulo">
+            Nicolas Augusto
         </h1>
 
-        <svg class="pl" viewBox="0 0 160 160" width="160px" height="160px" xmlns="http://www.w3.org/2000/svg">
+        <div class="container-nav">
 
-            <defs>
-                <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stop-color="#000"></stop>
-                    <stop offset="100%" stop-color="#fff"></stop>
-                </linearGradient>
+            <div class="glass-radio-group">
 
-                <mask id="mask1">
-                    <rect x="0" y="0" width="160" height="160" fill="url(#grad)"></rect>
-                </mask>
+                <input type="radio" name="nav" id="glass-sobre" checked>
+                <label for="glass-sobre">
+                    <a href="#sobre">Sobre</a>
+                </label>
 
-                <mask id="mask2">
-                    <rect x="28" y="28" width="104" height="104" fill="url(#grad)"></rect>
-                </mask>
-            </defs>
+                <input type="radio" name="nav" id="glass-projetos">
+                <label for="glass-projetos">
+                    <a href="#projetos">Projetos</a>
+                </label>
 
-            <g>
-                <g class="pl__ring-rotate">
-                    <circle class="pl__ring-stroke" cx="80" cy="80" r="72" fill="none"
-                        stroke="hsl(223,90%,55%)" stroke-width="16"
-                        stroke-dasharray="452.39 452.39"
-                        stroke-dashoffset="452"
-                        stroke-linecap="round"
-                        transform="rotate(-45,80,80)">
-                    </circle>
-                </g>
-            </g>
+                <input type="radio" name="nav" id="glass-hobbies">
+                <label for="glass-hobbies">
+                    <a href="#hobbies">Hobbies</a>
+                </label>
 
-            <g mask="url(#mask1)">
-                <g class="pl__ring-rotate">
-                    <circle class="pl__ring-stroke" cx="80" cy="80" r="72" fill="none"
-                        stroke="hsl(193,90%,55%)" stroke-width="16"
-                        stroke-dasharray="452.39 452.39"
-                        stroke-dashoffset="452"
-                        stroke-linecap="round"
-                        transform="rotate(-45,80,80)">
-                    </circle>
-                </g>
-            </g>
+                <input type="radio" name="nav" id="glass-formacao">
+                <label for="glass-formacao">
+                    <a href="#formacao">Formação</a>
+                </label>
 
-            <g>
-                <g stroke-width="4" stroke-dasharray="12 12" stroke-dashoffset="12"
-                    stroke-linecap="round" transform="translate(80,80)">
+                <input type="radio" name="nav" id="glass-contato">
+                <label for="glass-contato">
+                    <a href="#contato">Contato</a>
+                </label>
 
-                    <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
-                        points="0,2 0,14" transform="rotate(-135,0,0) translate(0,40)">
-                    </polyline>
+                <div class="glass-glider"></div>
 
-                    <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
-                        points="0,2 0,14" transform="rotate(-90,0,0) translate(0,40)">
-                    </polyline>
+            </div>
 
-                    <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
-                        points="0,2 0,14" transform="rotate(-45,0,0) translate(0,40)">
-                    </polyline>
+        </div>
 
-                    <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
-                        points="0,2 0,14" transform="rotate(0,0,0) translate(0,40)">
-                    </polyline>
+    </header>
 
-                    <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
-                        points="0,2 0,14" transform="rotate(45,0,0) translate(0,40)">
-                    </polyline>
+    <section id="sobre">
 
-                    <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
-                        points="0,2 0,14" transform="rotate(90,0,0) translate(0,40)">
-                    </polyline>
+        <div class="window">
 
-                    <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
-                        points="0,2 0,14" transform="rotate(135,0,0) translate(0,40)">
-                    </polyline>
+            <div class="tools">
+                <div class="circle">
+                    <span class="red box"></span>
+                </div>
 
-                    <polyline class="pl__tick" stroke="hsl(223,10%,90%)"
-                        points="0,2 0,14" transform="rotate(180,0,0) translate(0,40)">
-                    </polyline>
+                <div class="circle">
+                    <span class="yellow box"></span>
+                </div>
 
-                </g>
-            </g>
+                <div class="circle">
+                    <span class="green box"></span>
+                </div>
+            </div>
 
-            <g mask="url(#mask1)">
-                <g stroke-width="4" stroke-dasharray="12 12" stroke-dashoffset="12"
-                    stroke-linecap="round" transform="translate(80,80)">
+            <div class="window-content">
 
-                    <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
-                        points="0,2 0,14" transform="rotate(-135,0,0) translate(0,40)">
-                    </polyline>
+                <div class="sobre-mim">
 
-                    <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
-                        points="0,2 0,14" transform="rotate(-90,0,0) translate(0,40)">
-                    </polyline>
+                    <img src="foto.jpg" class="foto-perfil" alt="Minha foto">
 
-                    <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
-                        points="0,2 0,14" transform="rotate(-45,0,0) translate(0,40)">
-                    </polyline>
+                    <div class="sobre-informacoes">
 
-                    <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
-                        points="0,2 0,14" transform="rotate(0,0,0) translate(0,40)">
-                    </polyline>
+                        <h2>
+                            SOBRE MIM
+                        </h2>
 
-                    <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
-                        points="0,2 0,14" transform="rotate(45,0,0) translate(0,40)">
-                    </polyline>
+                        <p>
+                            Turma de Desenvolvimento de Sistemas -
+                            2º Semestre - SESI, já fez Curso FMT
+                            (Formação Para o Mundo de Trabalho),
+                            cursando o SENAI - TI, e o ServiceNow.
+                        </p>
 
-                    <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
-                        points="0,2 0,14" transform="rotate(90,0,0) translate(0,40)">
-                    </polyline>
+                    </div>
 
-                    <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
-                        points="0,2 0,14" transform="rotate(135,0,0) translate(0,40)">
-                    </polyline>
+                </div>
 
-                    <polyline class="pl__tick" stroke="hsl(223,90%,80%)"
-                        points="0,2 0,14" transform="rotate(180,0,0) translate(0,40)">
-                    </polyline>
+                <div class="linguagens">
 
-                </g>
-            </g>
+                    <h2>
+                        CONHECIMENTO DE LINGUAGENS
+                    </h2>
 
-            <g>
-                <g transform="translate(64,28)">
-                    <g class="pl__arrows" transform="rotate(45,16,52)">
+                    <div class="linguagens-lista">
 
-                        <path fill="hsl(3,90%,55%)"
-                            d="M17.998,1.506l13.892,43.594c.455,1.426-.56,2.899-1.998,2.899H2.108c-1.437,0-2.452-1.473-1.998-2.899L14.002,1.506c.64-2.008,3.356-2.008,3.996,0Z">
-                        </path>
+                        <div class="linguagem java">
 
-                        <path fill="hsl(223,10%,90%)"
-                            d="M14.009,102.499L.109,58.889c-.453-1.421,.559-2.889,1.991-2.889H29.899c1.433,0,2.444,1.468,1.991,2.889l-13.899,43.61c-.638,2.001-3.345,2.001-3.983,0Z">
-                        </path>
+                            <div class="linguagem-icone">
+                                <i class="fa-brands fa-java"></i>
+                            </div>
 
-                    </g>
-                </g>
-            </g>
+                            <span>JAVASCRIPT</span>
 
-            <g mask="url(#mask2)">
-                <g transform="translate(64,28)">
-                    <g class="pl__arrows" transform="rotate(45,16,52)">
+                        </div>
 
-                        <path fill="hsl(333,90%,55%)"
-                            d="M17.998,1.506l13.892,43.594c.455,1.426-.56,2.899-1.998,2.899H2.108c-1.437,0-2.452-1.473-1.998-2.899L14.002,1.506c.64-2.008,3.356-2.008,3.996,0Z">
-                        </path>
+                        <div class="linguagem cpp">
 
-                        <path fill="hsl(223,90%,80%)"
-                            d="M14.009,102.499L.109,58.889c-.453-1.421,.559-2.889,1.991-2.889H29.899c1.433,0,2.444,1.468,1.991,2.889l-13.899,43.61c-.638,2.001-3.345,2.001-3.983,0Z">
-                        </path>
+                            <div class="linguagem-icone">
+                                <i class="fa-solid fa-c"></i>
+                            </div>
 
-                    </g>
-                </g>
-            </g>
+                            <span>C</span>
 
-        </svg>
+                        </div>
 
-        <p class="carregando">
-            Carregando...
-        </p>
+                        <div class="linguagem css">
 
-    </div>
+                            <div class="linguagem-icone">
+                                <i class="fa-brands fa-html5"></i>
+                            </div>
 
-    <div id="portfolio">
+                            <span>HTML</span>
 
-        <header>
+                        </div>
 
-            <h1 class="titulo">
-                Nicolas Augusto
-            </h1>
-
-            <div class="container-nav">
-
-                <div class="glass-radio-group">
-
-                    <input type="radio" name="nav" id="glass-sobre" checked>
-
-                    <label for="glass-sobre">
-                        <a href="#sobre">Sobre</a>
-                    </label>
-
-                    <input type="radio" name="nav" id="glass-projetos">
-
-                    <label for="glass-projetos">
-                        <a href="#projetos">Projetos</a>
-                    </label>
-
-                    <input type="radio" name="nav" id="glass-hobbies">
-
-                    <label for="glass-hobbies">
-                        <a href="#hobbies">Hobbies</a>
-                    </label>
-
-                    <input type="radio" name="nav" id="glass-contato">
-
-                    <label for="glass-contato">
-                        <a href="#contato">Contato</a>
-                    </label>
-
-                    <div class="glass-glider"></div>
+                    </div>
 
                 </div>
 
             </div>
 
-        </header>
+        </div>
 
-        <section id="sobre">
+    </section>
 
-            <div class="window">
+    <section id="projetos">
 
-                <div class="tools">
+        <div class="window">
 
-                    <div class="circle">
-                        <span class="red box"></span>
-                    </div>
-
-                    <div class="circle">
-                        <span class="yellow box"></span>
-                    </div>
-
-                    <div class="circle">
-                        <span class="green box"></span>
-                    </div>
-
+            <div class="tools">
+                <div class="circle">
+                    <span class="red box"></span>
                 </div>
 
-                <div class="window-content">
+                <div class="circle">
+                    <span class="yellow box"></span>
+                </div>
 
-                    <div class="sobre-mim">
+                <div class="circle">
+                    <span class="green box"></span>
+                </div>
+            </div>
 
-                        <img src="foto.jpg" class="foto-perfil" alt="Minha foto">
+            <div class="window-content">
 
-                        <div class="sobre-informacoes">
+                <h2>
+                    MEUS PROJETOS
+                </h2>
 
-                            <h2>
-                                SOBRE MIM
-                            </h2>
+                <div class="cards">
+
+                    <div class="project-card">
+
+                        <a href="https://nicolasaugusto.my.canva.site/better-task"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link">
+
+                            <div class="project-button">
+                                Better Task
+                            </div>
+
+                        </a>
+
+                        <div class="project-description">
+
+                            <h3>
+                                BETTER TASK
+                            </h3>
 
                             <p>
-                                Turma de Desenvolvimento de Sistemas -
-                                2º Semestre - SESI, já fez Curso FMT
-                                (Formação Para o Mundo de Trabalho),
-                                cursando o SENAI - TI, e o ServiceNow.
+                                Projeto escolar para organização do sistema
+                                de tarefas de casa, e trabalhos (Shark-Tank).
                             </p>
 
                         </div>
 
                     </div>
 
-                    <div class="linguagens">
+                </div>
 
-                        <h2>
-                            CONHECIMENTO DE LINGUAGENS
-                        </h2>
+            </div>
 
-                        <div class="linguagens-lista">
+        </div>
 
-                            <div class="linguagem java">
+    </section>
 
-                                <div class="linguagem-icone">
-                                    <i class="fa-brands fa-java"></i>
-                                </div>
+    <section id="hobbies">
 
-                                <span>JAVASCRIPT</span>
+        <div class="window">
 
-                            </div>
+            <div class="tools">
+                <div class="circle">
+                    <span class="red box"></span>
+                </div>
 
-                            <div class="linguagem cpp">
+                <div class="circle">
+                    <span class="yellow box"></span>
+                </div>
 
-                                <div class="linguagem-icone">
-                                    <i class="fa-solid fa-c"></i>
-                                </div>
+                <div class="circle">
+                    <span class="green box"></span>
+                </div>
+            </div>
 
-                                <span>C</span>
+            <div class="window-content">
 
-                            </div>
+                <h2>
+                    MEUS HOBBIES
+                </h2>
 
-                            <div class="linguagem css">
+                <div class="hobbies">
 
-                                <div class="linguagem-icone">
-                                    <i class="fa-brands fa-html5"></i>
-                                </div>
+                    <div class="hobby">
 
-                                <span>HTML</span>
+                        <i class="fa-brands fa-spotify"></i>
 
-                            </div>
+                        <div>
+
+                            <h3>
+                                MUSICAS
+                            </h3>
+
+                            <p>
+                                Escutar Musicas todos os Dias.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="hobby">
+
+                        <i class="fa-solid fa-trophy"></i>
+
+                        <div>
+
+                            <h3>
+                                JOGAR
+                            </h3>
+
+                            <p>
+                                Jogar jogos eletrônicos.
+                            </p>
 
                         </div>
 
@@ -321,61 +452,127 @@
 
             </div>
 
-        </section>
+        </div>
 
-        <section id="projetos">
+    </section>
 
-            <div class="window">
+    <section id="formacao">
 
-                <div class="tools">
+        <div class="window">
 
-                    <div class="circle">
-                        <span class="red box"></span>
-                    </div>
-
-                    <div class="circle">
-                        <span class="yellow box"></span>
-                    </div>
-
-                    <div class="circle">
-                        <span class="green box"></span>
-                    </div>
-
+            <div class="tools">
+                <div class="circle">
+                    <span class="red box"></span>
                 </div>
 
-                <div class="window-content">
+                <div class="circle">
+                    <span class="yellow box"></span>
+                </div>
 
-                    <h2>
-                        MEUS PROJETOS
-                    </h2>
+                <div class="circle">
+                    <span class="green box"></span>
+                </div>
+            </div>
 
-                    <div class="cards">
+            <div class="window-content formacao-content">
 
-                        <div class="project-card">
+                <h2>
+                    FORMAÇÃO
+                </h2>
 
-                            <a href="https://nicolasaugusto.my.canva.site/better-task"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="project-link">
+                <div class="formacao-lista">
 
-                                <div class="project-button">
-                                    Better Task
-                                </div>
+                    <div class="formacao-card">
 
-                            </a>
+                        <div class="formacao-icone">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
 
-                            <div class="project-description">
+                        <div class="formacao-informacoes">
 
-                                <h3>
-                                    BETTER TASK
-                                </h3>
+                            <h3>
+                                Ensino Fundamental Completo
+                            </h3>
 
-                                <p>
-                                    Projeto escolar para organização do sistema
-                                    de tarefas de casa, e trabalhos (Shark-Tank).
-                                </p>
+                            <p>
+                                SESI
+                            </p>
 
-                            </div>
+                            <span>
+                                2º Semestre
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="formacao-card">
+
+                        <div class="formacao-icone">
+                            <i class="fa-solid fa-computer"></i>
+                        </div>
+
+                        <div class="formacao-informacoes">
+
+                            <h3>
+                                Tecnologia da Informação
+                            </h3>
+
+                            <p>
+                                SENAI
+                            </p>
+
+                            <span>
+                                Curso em andamento
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="formacao-card">
+
+                        <div class="formacao-icone">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+
+                        <div class="formacao-informacoes">
+
+                            <h3>
+                                Formação Para o Mundo do Trabalho
+                            </h3>
+
+                            <p>
+                                FMT
+                            </p>
+
+                            <span>
+                                Curso concluído
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="formacao-card">
+
+                        <div class="formacao-icone">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <div class="formacao-informacoes">
+
+                            <h3>
+                                ServiceNow
+                            </h3>
+
+                            <p>
+                                Curso de tecnologia
+                            </p>
+
+                            <span>
+                                Em andamento
+                            </span>
 
                         </div>
 
@@ -385,202 +582,128 @@
 
             </div>
 
-        </section>
+        </div>
 
-        <section id="hobbies">
+    </section>
 
-            <div class="window">
+    <section id="contato">
 
-                <div class="tools">
+        <div class="window">
 
-                    <div class="circle">
-                        <span class="red box"></span>
-                    </div>
-
-                    <div class="circle">
-                        <span class="yellow box"></span>
-                    </div>
-
-                    <div class="circle">
-                        <span class="green box"></span>
-                    </div>
-
+            <div class="tools">
+                <div class="circle">
+                    <span class="red box"></span>
                 </div>
 
-                <div class="window-content">
-
-                    <h2>
-                        MEUS HOBBIES
-                    </h2>
-
-                    <div class="hobbies">
-
-                        <div class="hobby">
-
-                            <i class="fa-brands fa-spotify"></i>
-
-                            <div>
-
-                                <h3>
-                                    MUSICAS
-                                </h3>
-
-                                <p>
-                                    Escutar Musicas todos os Dias.
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="hobby">
-
-                            <i class="fa-solid fa-trophy"></i>
-
-                            <div>
-
-                                <h3>
-                                    JOGAR
-                                </h3>
-
-                                <p>
-                                    Jogar jogos eletrônicos.
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
+                <div class="circle">
+                    <span class="yellow box"></span>
                 </div>
 
+                <div class="circle">
+                    <span class="green box"></span>
+                </div>
             </div>
 
-        </section>
+            <div class="window-content contato-content">
 
-        <section id="contato">
+                <h2>
+                    CONTATO
+                </h2>
 
-            <div class="window">
+                <p class="contato-texto">
+                    Quer falar comigo? Preencha o formulário abaixo e envie sua mensagem.
+                </p>
 
-                <div class="tools">
+                <form>
 
-                    <div class="circle">
-                        <span class="red box"></span>
+                    <div class="campo">
+
+                        <label for="nome">
+                            Nome
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            placeholder="Seu nome"
+                            required>
+
                     </div>
 
-                    <div class="circle">
-                        <span class="yellow box"></span>
+                    <div class="campo">
+
+                        <label for="email">
+                            E-mail
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="email@email.com"
+                            required>
+
                     </div>
 
-                    <div class="circle">
-                        <span class="green box"></span>
+                    <div class="campo">
+
+                        <label for="mensagem">
+                            Mensagem
+                        </label>
+
+                        <textarea
+                            id="mensagem"
+                            placeholder="Escreva sua mensagem..."
+                            required></textarea>
+
                     </div>
 
-                </div>
+                    <button type="submit">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Enviar mensagem
+                    </button>
 
-                <div class="window-content contato-content">
+                </form>
+
+                <br>
+                <br>
+
+                <div class="redes-content">
 
                     <h2>
-                        CONTATO
+                        MINHAS REDES SOCIAIS
                     </h2>
 
-                    <p class="contato-texto">
-                        Quer falar comigo? Preencha o formulário abaixo e envie sua mensagem.
+                    <p class="redes-texto">
+                        Confira minhas redes sociais e acompanhe meus projetos.
                     </p>
 
-                    <form>
+                    <div class="redes-lista">
 
-                        <div class="campo">
+                        <a href="https://github.com/NicolasReis7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="rede-card rede-github">
 
-                            <label for="nome">
-                                Nome
-                            </label>
+                            <i class="fa-brands fa-github"></i>
 
-                            <input
-                                type="text"
-                                id="nome"
-                                placeholder="Seu nome"
-                                required>
+                            <span>
+                                GitHub
+                            </span>
 
-                        </div>
+                        </a>
 
-                        <div class="campo">
+                        <a href="https://www.instagram.com/nickkz777/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="rede-card rede-instagram">
 
-                            <label for="email">
-                                E-mail
-                            </label>
+                            <i class="fa-brands fa-instagram"></i>
 
-                            <input
-                                type="email"
-                                id="email"
-                                placeholder="email@email.com"
-                                required>
+                            <span>
+                                Instagram
+                            </span>
 
-                        </div>
-
-                        <div class="campo">
-
-                            <label for="mensagem">
-                                Mensagem
-                            </label>
-
-                            <textarea
-                                id="mensagem"
-                                placeholder="Escreva sua mensagem..."
-                                required></textarea>
-
-                        </div>
-
-                        <button type="submit">
-                            <i class="fa-solid fa-paper-plane"></i>
-                            Enviar mensagem
-                        </button>
-
-                    </form>
-
-                    <br>
-                    <br>
-
-                    <div class="redes-content">
-
-                        <h2>
-                            MINHAS REDES SOCIAIS
-                        </h2>
-
-                        <p class="redes-texto">
-                            Confira minhas redes sociais e acompanhe meus projetos.
-                        </p>
-
-                        <div class="redes-lista">
-
-                            <a href="https://github.com/NicolasReis7"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="rede-card rede-github">
-
-                                <i class="fa-brands fa-github"></i>
-
-                                <span>
-                                    GitHub
-                                </span>
-
-                            </a>
-
-                            <a href="https://www.instagram.com/nickkz777/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="rede-card rede-instagram">
-
-                                <i class="fa-brands fa-instagram"></i>
-
-                                <span>
-                                    Instagram
-                                </span>
-
-                            </a>
-
-                        </div>
+                        </a>
 
                     </div>
 
@@ -588,53 +711,56 @@
 
             </div>
 
-        </section>
+        </div>
 
-    </div>
+    </section>
 
-    <script>
+</div>
+
+<script>
+
+    setTimeout(function () {
+
+        document
+            .getElementById("intro")
+            .classList
+            .add("intro-saida");
 
         setTimeout(function () {
 
             document
                 .getElementById("intro")
+                .style.display = "none";
+
+            document
+                .getElementById("portfolio")
                 .classList
-                .add("intro-saida");
+                .add("portfolio-entrando");
 
-            setTimeout(function () {
+        }, 800);
 
-                document
-                    .getElementById("intro")
-                    .style.display = "none";
+    }, 3000);
 
-                document
-                    .getElementById("portfolio")
-                    .classList
-                    .add("portfolio-entrando");
+    const links = document.querySelectorAll(".glass-radio-group label a");
 
-            }, 800);
+    links.forEach(function (link) {
 
-        }, 3000);
+        link.addEventListener("click", function () {
 
-        const links = document.querySelectorAll(".glass-radio-group label a");
+            const label = this.parentElement;
+            const radioId = label.getAttribute("for");
+            const radio = document.getElementById(radioId);
 
-        links.forEach(function (link) {
-
-            link.addEventListener("click", function () {
-
-                const label = this.parentElement;
-                const radioId = label.getAttribute("for");
-                const radio = document.getElementById(radioId);
-
-                if (radio) {
-                    radio.checked = true;
-                }
-
-            });
+            if (radio) {
+                radio.checked = true;
+            }
 
         });
 
-    </script>
+    });
+
+</script>
+
 
 </body>
 
